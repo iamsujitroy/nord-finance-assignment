@@ -1,0 +1,99 @@
+.header {
+  text-align: center;
+  margin: 20px auto;
+}
+.content-wrapper {
+  max-width: var(--max-width);
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.search-container {
+  width: 100%;
+  background: var(--normal-color);
+  display: flex;
+  justify-content: flex-end;
+  padding: 15px 30px;
+}
+.search {
+  width: 400px;
+  display: flex;
+}
+.search input {
+  width: inherit;
+  padding: 10px 30px;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  border-radius: 20px 0 0 20px ;
+}
+.search button {
+  font-size: 1rem;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+.clear-btn{
+  background: white;
+}
+.clear-btn--hide{
+  display: none;
+}
+.search-btn{
+  border-radius: 0 20px 20px 0 ;
+}
+.table-parent-container{
+  width: 100%;
+  overflow-x: auto;
+}
+.table-container {
+  min-width: 100%;
+  margin: auto;
+  overflow-x: auto;
+}
+.user-table {
+  border: 1px solid;
+  border-collapse: collapse;
+  margin: auto;
+  width: 100%;
+}
+.user-table th,
+.user-table td {
+  padding: 8px 26px;
+  color: var(--primary-color);
+  border: 1px solid var(--normal-color);
+  text-align: center;
+}
+.user-table th {
+  background: var(--normal-color);
+  color: white;
+  min-width: 155px;
+}
+.user-table thead td {
+  font-weight: 600;
+}
+.user-table tbody td {
+  font-weight: 400;
+}
+.user-table .sort-btn{
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.loading {
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  display: block;
+  margin-top: 130px;
+}
+.loading img {
+  width: 100%;
+}
+
+@media screen and (max-width: 1100px) {
+  .home {
+    margin: auto 15px;
+  }
+}

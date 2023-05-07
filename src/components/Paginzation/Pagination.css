@@ -1,0 +1,25 @@
+
+
+.pagination-container {
+    display: flex;
+    justify-content: flex-end;
+    grid-gap: 1rem;
+    margin-top: 20px;
+  }
+  .pagination-item {
+    background: var(--normal-color);
+    color: white;
+    padding: 6px 17px;
+    display: inline-block;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  .pagination-item--disable {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+  .pagination-item--active {
+    background: var(--secondary-color);
+    font-weight: 500;
+  }
+  
