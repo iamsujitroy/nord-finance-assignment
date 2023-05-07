@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import "./Home.css";
 import { useEffect, useReducer } from "react";
 import axios from "axios";
